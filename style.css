@@ -7,7 +7,7 @@
 
 /* ─── Variables ─── */
 :root {
-  --black:       #0a0a0a;
+  --black:       #000000;
   --gold:        #C9963A;
   --gold-hover:  #a67c20;
   --gold-pale:   rgba(201, 150, 58, 0.12);
@@ -17,7 +17,7 @@
   --slate:       #555555;
   --slate-lt:    #888888;
   --border:      #e0dbd0;
-  --footer-bg:   #080808;
+  --footer-bg:   #000000;
 }
 
 /* ─── Reset ─── */

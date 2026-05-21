@@ -7,17 +7,17 @@
 
 /* ─── Variables ─── */
 :root {
-  --black:       #1a1a1a;
-  --gold:        #D4AF37;
-  --gold-hover:  #b8962e;
-  --gold-pale:   rgba(212, 175, 55, 0.12);
-  --gold-pale2:  rgba(212, 175, 55, 0.06);
+  --black:       #0a0a0a;
+  --gold:        #C9963A;
+  --gold-hover:  #a67c20;
+  --gold-pale:   rgba(201, 150, 58, 0.12);
+  --gold-pale2:  rgba(201, 150, 58, 0.06);
   --cream:       #F5F0E8;
   --white:       #FFFFFF;
   --slate:       #555555;
   --slate-lt:    #888888;
   --border:      #e0dbd0;
-  --footer-bg:   #111111;
+  --footer-bg:   #080808;
 }
 
 /* ─── Reset ─── */
@@ -65,6 +65,12 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   text-decoration: none;
 }
+.navbar-logo {
+  height: 52px;
+  width: auto;
+  display: block;
+}
+
 .brand-name {
   font-family: 'Playfair Display', serif;
   font-size: 1.35rem;
@@ -76,7 +82,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Inter', sans-serif;
   font-size: 0.6rem;
   font-weight: 500;
-  color: rgba(212,175,55,0.5);
+  color: rgba(201,150,58,0.5);
   letter-spacing: 0.18em;
   text-transform: uppercase;
   margin-top: 3px;

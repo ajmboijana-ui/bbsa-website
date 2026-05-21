@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Join &amp; Resources — BBSA | Vanderbilt University</title>
+  <meta name="description" content="Join Vanderbilt BBSA — open to all Vanderbilt students. Access member resources, the interest form, and our newsletter." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;0,800;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .join-layout {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+      align-items: start;
+    }
+    .join-col-title {
+      font-size: clamp(1.4rem, 3vw, 1.85rem);
+      margin-bottom: 0.85rem;
+    }
+    .join-col-desc {
+      font-size: 0.97rem;
+      color: var(--slate);
+      line-height: 1.78;
+      margin-bottom: 1.75rem;
+    }
+    .instagram-callout {
+      display: flex;
+      align-items: center;
+      gap: 0.85rem;
+      background: var(--gold-pale);
+      border: 1px solid rgba(212,175,55,0.3);
+      border-radius: 6px;
+      padding: 1rem 1.25rem;
+      margin-top: 1.5rem;
+    }
+    .instagram-callout svg { color: var(--gold); flex-shrink: 0; width: 22px; height: 22px; }
+    .instagram-callout p  { font-size: 0.88rem; color: var(--slate); line-height: 1.55; }
+    .instagram-callout strong { color: var(--black); }
+    .divider { border: none; border-top: 1px solid var(--border); margin: 2.5rem 0; }
+    @media (max-width: 700px) {
+      .join-layout { grid-template-columns: 1fr; gap: 3rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ═══ NAVBAR ═══ -->
+  <nav class="navbar" id="navbar">
+    <a href="index.html" class="navbar-brand">
+      <span class="brand-name">BBSA</span>
+      <span class="brand-sub">Vanderbilt University</span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-list" id="navList" role="list">
+      <li><a href="about.html">About</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="sponsors.html">Sponsors</a></li>
+      <li><a href="join.html" class="btn-nav">Join Us</a></li>
+    </ul>
+  </nav>
+
+  <!-- ═══ PAGE HEADER ═══ -->
+  <header class="page-header">
+    <h1>Get <em>Involved</em></h1>
+    <p>
+      BBSA is open to all Vanderbilt students who want to grow professionally and be
+      part of a community that invests in their success.
+    </p>
+  </header>
+
+  <!-- ═══ JOIN + RESOURCES ═══ -->
+  <section class="section">
+    <div class="container">
+      <div class="join-layout">
+
+        <!-- LEFT: Join BBSA -->
+        <div>
+          <span class="eyebrow">Membership</span>
+          <h2 class="join-col-title">Join BBSA</h2>
+          <div class="gold-bar"></div>
+          <p class="join-col-desc">
+            BBSA is open to <strong>all Vanderbilt students</strong> — regardless of major,
+            year, or background. Whether you're a first-year exploring career options or a
+            senior wrapping up recruiting, BBSA has something for you.
+          </p>
+          <p class="join-col-desc" style="margin-top: -0.75rem;">
+            By joining, you'll gain access to GBMs, Career Trek, workshops, networking
+            dinners, our resume book, and a community of driven peers and alumni who want
+            to see you win.
+          </p>
+
+          <!-- Interest Form Placeholder -->
+          <div class="form-group">
+            <label class="form-label">Interest Form</label>
+            <div class="iframe-placeholder">
+              <svg style="color: var(--gold); width: 32px; height: 32px; margin: 0 auto 0.75rem;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                <polyline points="14 2 14 8 20 8"/>
+                <line x1="16" y1="13" x2="8" y2="13"/>
+                <line x1="16" y1="17" x2="8" y2="17"/>
+                <polyline points="10 9 9 9 8 9"/>
+              </svg>
+              <div class="ph-title">Interest Form</div>
+              <p>Google Form link to be added by BBSA leadership.<br>
+                <a href="mailto:vanderbiltbbsa@gmail.com" style="color: var(--gold); font-size: 0.82rem;">Email us</a> to express interest in the meantime.
+              </p>
+            </div>
+          </div>
+
+          <!-- Instagram callout -->
+          <div class="instagram-callout">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+            </svg>
+            <p>Follow <strong>@vanderbiltbbsa</strong> on Instagram for event announcements,
+              recruiting timelines, and updates on when the interest form goes live each semester.</p>
+          </div>
+        </div>
+
+        <!-- RIGHT: Member Resources -->
+        <div>
+          <span class="eyebrow">Members Only</span>
+          <h2 class="join-col-title">Member Resources</h2>
+          <div class="gold-bar"></div>
+          <p class="join-col-desc">
+            Active BBSA members have access to a curated set of tools and documents designed
+            to accelerate your recruiting preparation and professional development.
+          </p>
+
+          <ul class="resource-list">
+
+            <li class="resource-item">
+              <div class="resource-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                  <circle cx="9" cy="7" r="4"/>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                </svg>
+              </div>
+              <div>
+                <div class="resource-name">Resume Book</div>
+                <div class="resource-link"><a href="#">Access Resume Book →</a> <span style="color: #bbb;">— link to be added</span></div>
+              </div>
+            </li>
+
+            <li class="resource-item">
+              <div class="resource-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
+                </svg>
+              </div>
+              <div>
+                <div class="resource-name">Career Resources &amp; Templates</div>
+                <div class="resource-link"><a href="#">Access Resources →</a> <span style="color: #bbb;">— link to be added</span></div>
+              </div>
+            </li>
+
+            <li class="resource-item">
+              <div class="resource-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+                  <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+                </svg>
+              </div>
+              <div>
+                <div class="resource-name">Professional Development Toolkit</div>
+                <div class="resource-link"><a href="#">Access Toolkit →</a> <span style="color: #bbb;">— link to be added</span></div>
+              </div>
+            </li>
+
+            <li class="resource-item">
+              <div class="resource-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                  <polyline points="22,6 12,13 2,6"/>
+                </svg>
+              </div>
+              <div>
+                <div class="resource-name">BBSA Newsletter</div>
+                <div class="resource-link"><a href="#">View Archive →</a> <span style="color: #bbb;">— link to be added</span></div>
+              </div>
+            </li>
+
+          </ul>
+
+          <div style="margin-top: 1.75rem; padding: 1.25rem; background: var(--cream); border-radius: 6px;">
+            <p style="font-size: 0.85rem; color: var(--slate); line-height: 1.65;">
+              <strong style="color: var(--black);">Need access?</strong>
+              Resources are shared with confirmed members via email after joining. Reach out at
+              <a href="mailto:vanderbiltbbsa@gmail.com" style="color: var(--gold); font-weight: 600;">vanderbiltbbsa@gmail.com</a>
+              if you have trouble accessing any materials.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ NEWSLETTER SIGNUP ═══ -->
+  <section class="section section-dark">
+    <div class="container" style="max-width: 680px; text-align: center;">
+      <span class="eyebrow">Stay Connected</span>
+      <h2 class="section-heading" style="color: var(--white);">Subscribe to Our Newsletter</h2>
+      <div class="gold-bar gold-bar-center"></div>
+      <p style="color: rgba(255,255,255,0.55); font-size: 1rem; line-height: 1.74; margin-bottom: 2.25rem;">
+        Get BBSA updates, recruiting timelines, event invites, and career resources delivered
+        straight to your inbox. We send it when it matters — no inbox spam.
+      </p>
+      <form action="mailto:vanderbiltbbsa@gmail.com" method="POST" enctype="text/plain" style="display: flex; justify-content: center;">
+        <div class="newsletter-form">
+          <input
+            class="form-input"
+            type="email"
+            name="subscribe"
+            placeholder="your@vanderbilt.edu"
+            aria-label="Email address"
+            required
+          />
+          <button type="submit" class="btn btn-primary">Subscribe</button>
+        </div>
+      </form>
+      <p style="margin-top: 1rem; font-size: 0.78rem; color: rgba(255,255,255,0.28);">
+        This opens your email client. You can also email us directly at vanderbiltbbsa@gmail.com with subject "Subscribe."
+      </p>
+    </div>
+  </section>
+
+  <!-- ═══ FAQ ═══ -->
+  <section class="section section-cream">
+    <div class="container" style="max-width: 760px;">
+      <div class="text-center" style="margin-bottom: 3rem;">
+        <span class="eyebrow">Questions</span>
+        <h2 class="section-heading">Frequently Asked</h2>
+        <div class="gold-bar gold-bar-center"></div>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 1.25rem;">
+
+        <details style="background: var(--white); border-radius: 6px; box-shadow: 0 2px 12px rgba(0,0,0,0.06); overflow: hidden;">
+          <summary style="padding: 1.25rem 1.5rem; font-family: 'Playfair Display', serif; font-size: 1.02rem; font-weight: 700; cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center;">
+            Who can join BBSA?
+            <span style="color: var(--gold); font-size: 1.2rem; flex-shrink: 0; margin-left: 1rem;">+</span>
+          </summary>
+          <div style="padding: 0 1.5rem 1.25rem; font-size: 0.93rem; color: var(--slate); line-height: 1.72; border-top: 1px solid var(--border);">
+            BBSA is open to all currently enrolled Vanderbilt University students, regardless of
+            major, school, year, or background. You do not need to be a business major. If you
+            have an interest in business and want to build your career alongside a community of
+            driven peers, you belong here.
+          </div>
+        </details>
+
+        <details style="background: var(--white); border-radius: 6px; box-shadow: 0 2px 12px rgba(0,0,0,0.06); overflow: hidden;">
+          <summary style="padding: 1.25rem 1.5rem; font-family: 'Playfair Display', serif; font-size: 1.02rem; font-weight: 700; cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center;">
+            Is there a membership fee?
+            <span style="color: var(--gold); font-size: 1.2rem; flex-shrink: 0; margin-left: 1rem;">+</span>
+          </summary>
+          <div style="padding: 0 1.5rem 1.25rem; font-size: 0.93rem; color: var(--slate); line-height: 1.72; border-top: 1px solid var(--border);">
+            Membership details including any dues are communicated at the beginning of each
+            semester during our first General Body Meeting. Reach out to
+            <a href="mailto:vanderbiltbbsa@gmail.com" style="color: var(--gold);">vanderbiltbbsa@gmail.com</a>
+            for the most current information.
+          </div>
+        </details>
+
+        <details style="background: var(--white); border-radius: 6px; box-shadow: 0 2px 12px rgba(0,0,0,0.06); overflow: hidden;">
+          <summary style="padding: 1.25rem 1.5rem; font-family: 'Playfair Display', serif; font-size: 1.02rem; font-weight: 700; cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center;">
+            When does recruiting start?
+            <span style="color: var(--gold); font-size: 1.2rem; flex-shrink: 0; margin-left: 1rem;">+</span>
+          </summary>
+          <div style="padding: 0 1.5rem 1.25rem; font-size: 0.93rem; color: var(--slate); line-height: 1.72; border-top: 1px solid var(--border);">
+            Finance and consulting recruiting typically begins in the fall semester, often earlier
+            than students expect. BBSA's GBMs and workshops are designed to keep you ahead of
+            deadlines. Join early — ideally your first or second year — to maximize your time
+            building relationships with partner firms.
+          </div>
+        </details>
+
+        <details style="background: var(--white); border-radius: 6px; box-shadow: 0 2px 12px rgba(0,0,0,0.06); overflow: hidden;">
+          <summary style="padding: 1.25rem 1.5rem; font-family: 'Playfair Display', serif; font-size: 1.02rem; font-weight: 700; cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center;">
+            How do I apply for a leadership position?
+            <span style="color: var(--gold); font-size: 1.2rem; flex-shrink: 0; margin-left: 1rem;">+</span>
+          </summary>
+          <div style="padding: 0 1.5rem 1.25rem; font-size: 0.93rem; color: var(--slate); line-height: 1.72; border-top: 1px solid var(--border);">
+            Executive board elections are held each spring. All active members in good standing
+            are eligible to run. Announcements go out via email and Instagram. Email
+            <a href="mailto:vanderbiltbbsa@gmail.com" style="color: var(--gold);">vanderbiltbbsa@gmail.com</a>
+            if you'd like to learn more about what each role involves.
+          </div>
+        </details>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ CTA ═══ -->
+  <section class="cta-banner">
+    <div class="container">
+      <h2>Your network starts <span>here.</span></h2>
+      <p>Fill out the interest form or email us directly — we'd love to have you at our next GBM.</p>
+      <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+        <a href="mailto:vanderbiltbbsa@gmail.com" class="btn btn-primary">Email Us</a>
+        <a href="about.html" class="btn btn-outline">Learn More About BBSA</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer>
+    <div class="footer-main">
+      <div>
+        <div class="footer-brand-name">BBSA</div>
+        <div class="footer-tagline">Black Business Student Association<br>Vanderbilt University</div>
+        <p class="footer-mission">Amplifying access to meaningful career opportunities in the business sector for Black students at Vanderbilt.</p>
+      </div>
+      <div>
+        <div class="footer-col-title">Navigation</div>
+        <div class="footer-links">
+          <a href="about.html">About</a>
+          <a href="events.html">Events</a>
+          <a href="sponsors.html">Sponsors</a>
+          <a href="join.html">Join Us</a>
+        </div>
+      </div>
+      <div>
+        <div class="footer-col-title">Connect</div>
+        <div class="footer-social-row">
+          <a href="#" class="footer-social-btn" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+            </svg>
+          </a>
+          <a href="#" class="footer-social-btn" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+              <rect x="2" y="9" width="4" height="12"/>
+              <circle cx="4" cy="4" r="2"/>
+            </svg>
+          </a>
+        </div>
+        <a href="mailto:vanderbiltbbsa@gmail.com" class="footer-email-link">vanderbiltbbsa@gmail.com</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Black Business Student Association — Vanderbilt University. All rights reserved.</p>
+      <span class="footer-vand">Nashville, TN</span>
+    </div>
+  </footer>
+
+  <script>
+    const menuToggle = document.getElementById('menuToggle');
+    const navList    = document.getElementById('navList');
+    menuToggle.addEventListener('click', () => {
+      const open = navList.classList.toggle('is-open');
+      menuToggle.setAttribute('aria-expanded', open);
+    });
+    document.addEventListener('click', (e) => {
+      if (!e.target.closest('.navbar')) {
+        navList.classList.remove('is-open');
+        menuToggle.setAttribute('aria-expanded', 'false');
+      }
+    });
+    const page = window.location.pathname.split('/').pop() || 'index.html';
+    document.querySelectorAll('.nav-list a:not(.btn-nav)').forEach(link => {
+      if (link.getAttribute('href') === page) link.classList.add('active');
+    });
+
+    // FAQ accordion — swap +/− on open/close
+    document.querySelectorAll('details').forEach(el => {
+      el.addEventListener('toggle', () => {
+        const icon = el.querySelector('summary span');
+        if (icon) icon.textContent = el.open ? '−' : '+';
+      });
+    });
+  </script>
+
+</body>
+</html>

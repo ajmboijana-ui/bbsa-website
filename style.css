@@ -226,7 +226,7 @@ h1, h2, h3, h4, h5, h6 {
    LAYOUT UTILITIES
    ════════════════════════════════ */
 .container {
-  max-width: 1080px;
+  max-width: 1320px;
   margin: 0 auto;
   padding: 0 clamp(1rem, 4vw, 2rem);
 }
@@ -337,6 +337,13 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   position: relative;
 }
+.hero-logo {
+  height: 110px;
+  width: auto;
+  display: block;
+  margin: 0 auto 1.75rem;
+}
+
 .page-header-logo {
   height: 90px;
   width: auto;
@@ -355,7 +362,7 @@ h1, h2, h3, h4, h5, h6 {
 .page-header h1 {
   font-size: clamp(2.2rem, 5.5vw, 3.75rem);
   color: var(--white);
-  max-width: 700px;
+  max-width: 960px;
   margin: 0 auto 1.1rem;
 }
 .page-header h1 em {
@@ -365,7 +372,7 @@ h1, h2, h3, h4, h5, h6 {
 .page-header p {
   color: rgba(255,255,255,0.6);
   font-size: 1.03rem;
-  max-width: 520px;
+  max-width: 720px;
   margin: 0 auto;
   line-height: 1.72;
 }
@@ -405,7 +412,7 @@ h1, h2, h3, h4, h5, h6 {
 .hero h1 {
   font-size: clamp(2.5rem, 6vw, 4.25rem);
   color: var(--white);
-  max-width: 800px;
+  max-width: 1040px;
   margin: 0 auto 1.5rem;
   font-weight: 800;
   line-height: 1.1;
@@ -414,7 +421,7 @@ h1, h2, h3, h4, h5, h6 {
 .hero-sub {
   font-size: clamp(0.97rem, 2vw, 1.08rem);
   color: rgba(255,255,255,0.6);
-  max-width: 610px;
+  max-width: 800px;
   margin: 0 auto 2.75rem;
   line-height: 1.78;
 }
@@ -433,7 +440,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 2.25rem clamp(1.25rem, 4vw, 2.5rem);
 }
 .stats-inner {
-  max-width: 1080px;
+  max-width: 1320px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -559,7 +566,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 2.25rem;
 }
 .logo-grid {
-  max-width: 900px;
+  max-width: 1200px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -579,13 +586,13 @@ h1, h2, h3, h4, h5, h6 {
 .cta-banner h2 {
   font-size: clamp(1.8rem, 4.5vw, 2.85rem);
   color: var(--white);
-  max-width: 580px;
+  max-width: 820px;
   margin: 0 auto 0.8rem;
 }
 .cta-banner h2 span { color: var(--gold); }
 .cta-banner p {
   color: rgba(255,255,255,0.52);
-  max-width: 460px;
+  max-width: 640px;
   margin: 0 auto 2.4rem;
   font-size: 1rem;
   line-height: 1.7;
@@ -930,7 +937,7 @@ h1, h2, h3, h4, h5, h6 {
    ════════════════════════════════ */
 footer { background: var(--footer-bg); color: var(--white); }
 .footer-main {
-  max-width: 1080px;
+  max-width: 1320px;
   margin: 0 auto;
   padding: clamp(3rem, 6vw, 4.5rem) clamp(1.25rem, 4vw, 2.5rem) clamp(2rem, 4vw, 3rem);
   display: grid;
@@ -1005,7 +1012,7 @@ footer { background: var(--footer-bg); color: var(--white); }
 }
 .footer-email-link:hover { color: var(--gold); }
 .footer-bottom {
-  max-width: 1080px;
+  max-width: 1320px;
   margin: 0 auto;
   padding: 1.3rem clamp(1.25rem, 4vw, 2.5rem);
   border-top: 1px solid rgba(255,255,255,0.07);
